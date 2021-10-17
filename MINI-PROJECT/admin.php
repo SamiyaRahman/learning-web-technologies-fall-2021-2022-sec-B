@@ -15,9 +15,9 @@
 
     <a href="profile.php">Profile</a>
     <br>
-    <a href="">Change Password</a>
+    <a href="changePassword.php">Change Password</a>
     <br>
-    <a href="">View User</a>
+    <a href="viewUser.php">View User</a>
     <br>
     <a href="">Logout</a>
 </div>

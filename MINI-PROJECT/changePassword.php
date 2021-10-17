@@ -23,7 +23,7 @@
 <input type="password">
 <br>
 <hr>
-<button >Change</button><a href="admin.php">Register</a>
+<button >Change</button><a href="admin.php">Home</a>
 
 
 
