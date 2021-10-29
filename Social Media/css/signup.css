@@ -1,0 +1,17 @@
+body {
+  background-color: grey;
+}
+
+.button {
+  padding: 10px;
+  background-color: green;
+  color: wheat;
+}
+a {
+  text-decoration: none;
+  font-size: xx-large;
+  color: aliceblue;
+}
+a:hover {
+  color: blue;
+}

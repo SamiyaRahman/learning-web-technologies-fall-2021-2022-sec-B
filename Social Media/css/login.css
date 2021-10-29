@@ -1,0 +1,29 @@
+body {
+  background-color: cadetblue;
+}
+#log {
+  color: orangered;
+  font-size: 60;
+}
+.input {
+  padding: 10px;
+  padding-left: 40px;
+
+  border-radius: 5px;
+}
+.button {
+  padding: 10px;
+  background-color: green;
+  color: wheat;
+}
+a {
+  text-decoration: none;
+  font-size: xx-large;
+  color: aliceblue;
+}
+a:hover {
+  color: blue;
+}
+.names {
+  font-size: xx-large;
+}
