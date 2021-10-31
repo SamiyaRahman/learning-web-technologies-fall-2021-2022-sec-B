@@ -1,16 +1,12 @@
-body {
-  background-color: grey;
-}
-
 .button {
   padding: 10px;
-  background-color: green;
+  background-color: rgb(26, 187, 26);
   color: wheat;
 }
 a {
   text-decoration: none;
   font-size: xx-large;
-  color: aliceblue;
+  color: rgb(29, 113, 187);
 }
 a:hover {
   color: blue;
