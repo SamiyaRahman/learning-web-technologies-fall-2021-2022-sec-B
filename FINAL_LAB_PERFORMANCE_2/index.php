@@ -7,31 +7,31 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <style>
             .but{
-                width: 45px;
-                height: 25px;
+                width: 85px;
+                height: 45px;
                 font-weight: bold;
                 text-align: center;
             }
             .cls{
-                width: 45px;
-                height: 25px;
+                width: 85px;
+                height: 45px;
                 font-weight: bold;
                 text-align: center;
-                color: #ffffff;
-                /* background-color: red; */
+               
+               
             }
             .eql{
-                width: 100%;
-                height: 25px;
+                width: 85px;
+                height: 45px;
                 font-weight: bold;
                 text-align: center;
-                color: #ffffff;
-                /* background-color: green; */
+               
+               
             }
             .display{
-                /* background-color: #BCCD64; */
+              
                 border:1px #666 solid; 
-                height: 50px; width: 250px; 
+                height: 60px; width: 350px; 
                 text-align: right; 
                 font-size: 20px;
             }
@@ -82,7 +82,10 @@
         </script>
     </head>
     <body>
-         Calculator Using AJAX/PHP
+         
+<center>
+
+Calculator Using AJAX/PHP
 <table width="120">
     <tr>
         <td colspan="5"><textarea id="display" class="display"></textarea></td>
@@ -116,17 +119,17 @@
         <td><input id="plus" value="+" type="button" class="but"></td>
     </tr>
     <tr>
+    <td>
+        <input id="neg" value="+/-" type="button" class="but"></td>
+      
         <td><input value="0" type="button" class="but"></td>
         <td><input id="dot" value="." type="button" class="but"></td>
-        <td><input id="neg" value="+/-" type="button" class="but"></td>
-      
-        <td><input id="some" value="" type="button" class="but" disabled></td>
+        <td><input id="eql" value="=" type="button" class="eql"></td>
     </tr>
-    <tr>
-        <td colspan="5"><input id="eql" value="=" type="button" class="eql"></td>
-    </tr>
+   
 </table>
 
+</center>
 </ol>
     </body>
 </html>
